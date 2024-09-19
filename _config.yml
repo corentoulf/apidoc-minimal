@@ -57,8 +57,11 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+author_profile: false
+
 sidebar:
   nav: "docs"
+  
 footer:
 
 defaults:
