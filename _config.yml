@@ -57,23 +57,10 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
-
-sidebar:
-  nav: "docs"
-
 footer: false
 
 
 defaults:
-  # _pages
-  - scope:
-      path: "_pages"
-      type: docs
-    values:
-      layout: single
-      author_profile: false
-      sidebar:
-        nav: "docs"
   # _docs
   - scope:
       path: ""
