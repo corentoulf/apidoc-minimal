@@ -61,8 +61,8 @@ author_profile: false
 
 sidebar:
   nav: "docs"
-  
-footer:
+
+footer: false
 
 defaults:
   # _posts
