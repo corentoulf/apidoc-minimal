@@ -65,17 +65,6 @@ footer: false
 
 
 defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: false
-      read_time: true
-      comments: true
-      share: true
-      related: true
   # _pages
   - scope:
       path: "_pages"
@@ -83,6 +72,19 @@ defaults:
     values:
       layout: single
       author_profile: false
+      sidebar:
+        nav: "docs"
+  # _docs
+  - scope:
+      path: ""
+      type: docs
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      toc_sticky: true
       sidebar:
         nav: "docs"
 category_archive:

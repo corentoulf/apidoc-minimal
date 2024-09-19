@@ -1,8 +1,6 @@
 main:
-  - title: "Posts"
-    url: /posts/
   - title: "API Reference"
-    url: /pages/api-reference/
+    url: /api-reference/
 docs:
   - title: Getting Started
     children:
